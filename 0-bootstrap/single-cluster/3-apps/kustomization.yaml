@@ -48,6 +48,8 @@ resources:
 
 ## Bank App
  - argocd/bank-app/transaction-service.yaml
+ - argocd/bank-app/user-service.yaml
+ - argocd/bank-app/mobile-simulator.yaml
 
 patches:
 - target:
