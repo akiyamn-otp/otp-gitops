@@ -46,6 +46,9 @@ resources:
  ## An example has been provided
  #- argocd/cloudpaks/cp4i/cp4i.yaml
 
+## Bank App
+ - argocd/bank-app/transaction-service.yaml
+
 patches:
 - target:
     group: argoproj.io
