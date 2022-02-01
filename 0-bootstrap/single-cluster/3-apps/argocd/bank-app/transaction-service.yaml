@@ -2,7 +2,6 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: transaction-service
-  namespace: bank-infra
   annotations:
     argocd.argoproj.io/sync-wave: "500"
   labels:
